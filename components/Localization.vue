@@ -16,8 +16,8 @@
       </div>
 
       <div class="flex-grow lg:w-1/3 lg:pl-4 mb-4 lg:mb-0">
-        <h2 class="font-bold text-2xl mb-4">
-          <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="" />
+        <h2 class="flex items-center font-bold text-2xl mb-4">
+          <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="inline-block mr-4 w-6" />
           <span class="inline-block">Localização</span>
         </h2>
         <address class="mb-4">
@@ -32,7 +32,7 @@
           title=""
           target="_blank"
         >
-          <font-awesome-icon :icon="['fas', 'desktop']" class="hover:text-gray-800 fa-2x mr-4" />
+          <font-awesome-icon :icon="['fas', 'desktop']" class="inline-block hover:text-gray-800 fa-2x mr-4 w-10 transition-5" />
           <span class="bg-black hover:bg-gray-800 inline-block text-white py-2 px-8 transition-5">Acesse o Site</span>
         </a>
       </div>

@@ -41,22 +41,22 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    [
-      'nuxt-fontawesome',
+    'nuxt-fontawesome' // Imports FontAwesome 5 SVG icons
+  ],
+  /*
+   ** Font Awesome module
+   */
+  fontawesome: {
+    imports: [
       {
-        imports: [
-          {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          },
-          {
-            set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
+        set: '@fortawesome/free-solid-svg-icons', // Solid icons
+        icons: [
+          'faMapMarkerAlt',
+          'faDesktop'
         ]
       }
     ]
-  ],
+  },
   /*
    ** Build configuration
    */
