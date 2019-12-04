@@ -4,7 +4,10 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'pt-BR'
+    },
+    title: 'Template Landing Page',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -50,10 +53,7 @@ export default {
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons', // Solid icons
-        icons: [
-          'faMapMarkerAlt',
-          'faDesktop'
-        ]
+        icons: ['faMapMarkerAlt', 'faDesktop']
       }
     ]
   },
