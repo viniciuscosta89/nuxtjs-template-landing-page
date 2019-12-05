@@ -1,10 +1,10 @@
 <template>
-  <section class="bg__bege py-10 px-6">
-    <div class="container flex flex-wrap mx-auto max-h-1/2">
+  <section class="bg__bege py-10 px-8 md:px-6">
+    <div class="container flex flex-wrap mx-auto">
       <a
         v-for="item in items"
         :key="item"
-        class="lg:w-1/4 mb-4 px-8 px-4 lg:px-2 text-center lg:text-left leading-snug"
+        class="md:w-1/2 lg:w-1/4 mb-4 md:px-2 leading-snug"
         :href="item.url"
       >
         {{ item.name }}
