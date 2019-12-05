@@ -1,8 +1,8 @@
 <template>
   <section class="gallery">
-    <div class="container flex flex-wrap mx-auto py-6 px-8 xl:px-0">
+    <div class="container flex flex-wrap mx-auto py-6 px-8 lg:px-6">
       <div
-        class="flex-grow lg:w-1/3 lg:px-2 mb-4 lg:mb-0 text-center lg:text-left"
+        class="flex-grow lg:w-1/3 px-4 lg:px-2 mb-4 lg:mb-0 text-center lg:text-left"
       >
         <img
           class="inline-block max-w-full w-full"

@@ -1,6 +1,6 @@
 <template>
   <section class="bg__dark-gray text-white">
-    <div class="container flex flex-wrap mx-auto py-8 px-8 xl:px-0 justify-center text-center">
+    <div class="container flex flex-wrap mx-auto py-8 px-8 justify-center text-center">
       <h2 class="font-bold text-2xl mb-4">
         Fale com nossos especialistas em curso de bartender flair para bares
       </h2>

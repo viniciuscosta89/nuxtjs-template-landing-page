@@ -5,7 +5,7 @@
     />
     <Separator />
     <section class="description bg-bege">
-      <div class="container flex flex-wrap mx-auto py-10 px-8 xl:px-0">
+      <div class="container flex flex-wrap mx-auto py-10 px-8">
         <div
           class="flex-grow lg:w-1/2 lg:pr-4 mb-4 lg:mb-0 text-center lg:text-left"
         >
@@ -57,7 +57,7 @@
     <Gallery />
 
     <section class="description bg-bege">
-      <div class="container flex flex-wrap mx-auto py-10 px-8 xl:px-0">
+      <div class="container flex flex-wrap mx-auto py-10 px-8">
         <div
           class="flex-grow lg:w-1/2 lg:pr-4 mb-4 lg:mb-0 text-center lg:text-left"
         >
@@ -134,6 +134,7 @@
     <BannerText />
     <Localization />
     <Separator />
+    <LinksList />
   </main>
 </template>
 
@@ -143,6 +144,7 @@ import Separator from '~/components/Separator'
 import Gallery from '~/components/Gallery'
 import BannerText from '~/components/BannerText'
 import Localization from '~/components/Localization'
+import LinksList from '~/components/LinksList'
 
 export default {
   components: {
@@ -150,7 +152,8 @@ export default {
     BigBanner,
     Gallery,
     Separator,
-    Localization
+    Localization,
+    LinksList
   }
 }
 </script>

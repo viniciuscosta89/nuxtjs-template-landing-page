@@ -1,5 +1,5 @@
 <template>
-  <section class="bg__bege py-10 px-8 xl:px-0">
+  <section class="bg__bege py-10 px-8">
     <div class="container flex flex-wrap mx-auto">
       <div
         class="flex-grow lg:w-2/3 lg:pr-4 mb-4 lg:mb-0 text-center lg:text-left"
